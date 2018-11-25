@@ -4,17 +4,18 @@ import DatePicker from "react-datepicker";
 import moment from 'moment';
 
 
+
 class Picker extends component {
     render() {
-        constructor(props) {
-            super(props);
+        constructor(props) ;{
+            Super(props);
             this.state = {
                 startDate: moment()
             };
             this.handleChange = this.handleChange.bind(this);
         }
 
-        handleChange(date) {
+        handleChange(date) ;{
             console.log('trying to change date for', date._d)
             this.setState({
                 startDate: date
